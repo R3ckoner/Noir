@@ -481,7 +481,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 116012809}
   m_LocalRotation: {x: -0.7071068, y: -0, z: -0, w: 0.7071068}
-  m_LocalPosition: {x: 0, y: -9.510529, z: -0.42549992}
+  m_LocalPosition: {x: 0, y: -10.49, z: -0.425}
   m_LocalScale: {x: 1, y: 0.04999999, z: 20}
   m_Children:
   - {fileID: 116054915}
@@ -1293,7 +1293,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 431570972}
   m_LocalRotation: {x: -0, y: -0, z: -0.7071068, w: 0.7071068}
-  m_LocalPosition: {x: -0.47599944, y: 8.510004, z: 0}
+  m_LocalPosition: {x: -0.47599944, y: 9.51, z: -0}
   m_LocalScale: {x: 20, y: 0.049999997, z: 1}
   m_Children:
   - {fileID: 762912568}
@@ -3138,7 +3138,7 @@ Transform:
   m_GameObject: {fileID: 1878073853}
   m_LocalRotation: {x: 0.7071068, y: 0, z: 0, w: 0.7071068}
   m_LocalPosition: {x: 293.8, y: 0.2, z: 9.49}
-  m_LocalScale: {x: 20, y: 1, z: 20}
+  m_LocalScale: {x: 100, y: 10, z: 40}
   m_Children:
   - {fileID: 116012813}
   m_Father: {fileID: 0}
@@ -3774,6 +3774,26 @@ PrefabInstance:
       propertyPath: impactEffect
       value: 
       objectReference: {fileID: 100002, guid: 99c73c92ac40473459640b165473206f, type: 3}
+    - target: {fileID: 4912086543826534170, guid: e0eec1930ad27c146a853a20bb570322, type: 3}
+      propertyPath: friction
+      value: 5
+      objectReference: {fileID: 0}
+    - target: {fileID: 4912086543826534170, guid: e0eec1930ad27c146a853a20bb570322, type: 3}
+      propertyPath: moveSpeed
+      value: 15
+      objectReference: {fileID: 0}
+    - target: {fileID: 4912086543826534170, guid: e0eec1930ad27c146a853a20bb570322, type: 3}
+      propertyPath: airControl
+      value: 3
+      objectReference: {fileID: 0}
+    - target: {fileID: 4912086543826534170, guid: e0eec1930ad27c146a853a20bb570322, type: 3}
+      propertyPath: airAcceleration
+      value: 4
+      objectReference: {fileID: 0}
+    - target: {fileID: 4912086543826534170, guid: e0eec1930ad27c146a853a20bb570322, type: 3}
+      propertyPath: sideStrafeAcceleration
+      value: 10
+      objectReference: {fileID: 0}
     - target: {fileID: 4912086543826534171, guid: e0eec1930ad27c146a853a20bb570322, type: 3}
       propertyPath: m_Name
       value: Player
@@ -3788,7 +3808,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 4912086543826534174, guid: e0eec1930ad27c146a853a20bb570322, type: 3}
       propertyPath: m_LocalPosition.y
-      value: 12.7
+      value: 28.1
       objectReference: {fileID: 0}
     - target: {fileID: 4912086543826534174, guid: e0eec1930ad27c146a853a20bb570322, type: 3}
       propertyPath: m_LocalPosition.z
