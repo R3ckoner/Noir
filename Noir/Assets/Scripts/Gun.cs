@@ -12,6 +12,7 @@ public class Gun : MonoBehaviour
     private int ReserveAmmount = -1;
     public int totalAmmo = 50;
     public float reloadTime = 1f;
+    // messed up some of these variables, will fix 
 
     private bool isReloading = false;
     public Camera fpsCam;
@@ -27,7 +28,7 @@ public class Gun : MonoBehaviour
             ReserveAmmount = magAmmo;
         }
     }
-    // Update is called once per frame
+    // sets amounts equal to the corresponding text object, sets conditions for reload
     void Update()
     {
         magText.text = ReserveAmmount.ToString();
@@ -45,7 +46,7 @@ public class Gun : MonoBehaviour
         }
     }
 
-
+    // performs reload
     IEnumerator Reload ()
     {
         if (totalAmmo > magAmmo){
@@ -61,6 +62,8 @@ public class Gun : MonoBehaviour
 
         }
     }
+
+    // fires the weapon and damages enemies
     void Shoot()
     {
 
