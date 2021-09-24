@@ -15,11 +15,11 @@ C:/Users/ruair/Desktop/NoirGame/Noir/Noir
 -logFile
 Logs/AssetImportWorker0.log
 -srvPort
-58107
+58915
 Successfully changed project path to: C:/Users/ruair/Desktop/NoirGame/Noir/Noir
 C:/Users/ruair/Desktop/NoirGame/Noir/Noir
 Using Asset Import Pipeline V2.
-Refreshing native plugins compatible for Editor in 40.19 ms, found 2 plugins.
+Refreshing native plugins compatible for Editor in 39.98 ms, found 2 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Initialize engine version: 2020.3.16f1 (049d6eca3c44)
 [Subsystems] Discovering subsystems at path C:/Unity Editors/2020.3.16f1/Editor/Data/Resources/UnitySubsystems
@@ -37,7 +37,7 @@ Initialize mono
 Mono path[0] = 'C:/Unity Editors/2020.3.16f1/Editor/Data/Managed'
 Mono path[1] = 'C:/Unity Editors/2020.3.16f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit'
 Mono config path = 'C:/Unity Editors/2020.3.16f1/Editor/Data/MonoBleedingEdge/etc'
-Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56004
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56344
 Begin MonoManager ReloadAssembly
 Registering precompiled unity dll's ...
 Register platform support module: C:/Unity Editors/2020.3.16f1/Editor/Data/PlaybackEngines/WebGLSupport/UnityEditor.WebGL.Extensions.dll
@@ -45,336 +45,118 @@ Register platform support module: C:/Unity Editors/2020.3.16f1/Editor/Data/Playb
 Register platform support module: C:/Unity Editors/2020.3.16f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
 Register platform support module: C:/Unity Editors/2020.3.16f1/Editor/Data/PlaybackEngines/LinuxStandaloneSupport/UnityEditor.LinuxStandalone.Extensions.dll
 Register platform support module: C:/Unity Editors/2020.3.16f1/Editor/Data/PlaybackEngines/LuminSupport/UnityEditor.Lumin.Extensions.dll
-Registered in 0.003956 seconds.
+Registered in 0.004811 seconds.
 Native extension for Lumin target not found
 Native extension for LinuxStandalone target not found
 Native extension for WindowsStandalone target not found
 Native extension for OSXStandalone target not found
 Native extension for WebGL target not found
-Refreshing native plugins compatible for Editor in 35.61 ms, found 2 plugins.
+Refreshing native plugins compatible for Editor in 51.16 ms, found 2 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Mono: successfully reloaded assembly
-- Completed reload, in  2.169 seconds
+- Completed reload, in 10.751 seconds
 Domain Reload Profiling:
-	ReloadAssembly (2170ms)
-		BeginReloadAssembly (54ms)
+	ReloadAssembly (10752ms)
+		BeginReloadAssembly (75ms)
 			ExecutionOrderSort (0ms)
 			DisableScriptedObjects (0ms)
 			BackupInstance (0ms)
 			ReleaseScriptingObjects (0ms)
 			CreateAndSetChildDomain (1ms)
-		EndReloadAssembly (417ms)
-			LoadAssemblies (53ms)
+		EndReloadAssembly (861ms)
+			LoadAssemblies (74ms)
 			RebuildTransferFunctionScriptingTraits (0ms)
-			SetupTypeCache (155ms)
+			SetupTypeCache (430ms)
 			ReleaseScriptCaches (0ms)
-			RebuildScriptCaches (30ms)
-			SetupLoadedEditorAssemblies (159ms)
+			RebuildScriptCaches (47ms)
+			SetupLoadedEditorAssemblies (285ms)
 				LogAssemblyErrors (0ms)
-				InitializePlatformSupportModulesInManaged (7ms)
+				InitializePlatformSupportModulesInManaged (12ms)
 				SetLoadedEditorAssemblies (0ms)
-				RefreshPlugins (36ms)
-				BeforeProcessingInitializeOnLoad (13ms)
-				ProcessInitializeOnLoadAttributes (77ms)
-				ProcessInitializeOnLoadMethodAttributes (26ms)
+				RefreshPlugins (51ms)
+				BeforeProcessingInitializeOnLoad (15ms)
+				ProcessInitializeOnLoadAttributes (173ms)
+				ProcessInitializeOnLoadMethodAttributes (34ms)
 				AfterProcessingInitializeOnLoad (0ms)
 				EditorAssembliesLoaded (0ms)
 			ExecutionOrderSort2 (0ms)
 			AwakeInstancesAfterBackupRestoration (0ms)
 Platform modules already initialized, skipping
 Registering precompiled user dll's ...
-Registered in 0.007294 seconds.
+Registered in 0.128847 seconds.
 Begin MonoManager ReloadAssembly
 Native extension for Lumin target not found
 Native extension for LinuxStandalone target not found
 Native extension for WindowsStandalone target not found
 Native extension for OSXStandalone target not found
 Native extension for WebGL target not found
-Refreshing native plugins compatible for Editor in 0.43 ms, found 2 plugins.
+Refreshing native plugins compatible for Editor in 0.47 ms, found 2 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Mono: successfully reloaded assembly
-- Completed reload, in  1.109 seconds
+- Completed reload, in  1.713 seconds
 Domain Reload Profiling:
-	ReloadAssembly (1110ms)
-		BeginReloadAssembly (140ms)
+	ReloadAssembly (1717ms)
+		BeginReloadAssembly (181ms)
 			ExecutionOrderSort (0ms)
-			DisableScriptedObjects (4ms)
+			DisableScriptedObjects (6ms)
 			BackupInstance (0ms)
 			ReleaseScriptingObjects (0ms)
-			CreateAndSetChildDomain (18ms)
-		EndReloadAssembly (908ms)
-			LoadAssemblies (90ms)
+			CreateAndSetChildDomain (22ms)
+		EndReloadAssembly (1460ms)
+			LoadAssemblies (124ms)
 			RebuildTransferFunctionScriptingTraits (0ms)
-			SetupTypeCache (266ms)
+			SetupTypeCache (371ms)
 			ReleaseScriptCaches (0ms)
-			RebuildScriptCaches (44ms)
-			SetupLoadedEditorAssemblies (421ms)
+			RebuildScriptCaches (66ms)
+			SetupLoadedEditorAssemblies (791ms)
 				LogAssemblyErrors (0ms)
-				InitializePlatformSupportModulesInManaged (8ms)
-				SetLoadedEditorAssemblies (1ms)
-				RefreshPlugins (0ms)
-				BeforeProcessingInitializeOnLoad (85ms)
-				ProcessInitializeOnLoadAttributes (315ms)
-				ProcessInitializeOnLoadMethodAttributes (3ms)
-				AfterProcessingInitializeOnLoad (8ms)
-				EditorAssembliesLoaded (0ms)
-			ExecutionOrderSort2 (0ms)
-			AwakeInstancesAfterBackupRestoration (6ms)
-Platform modules already initialized, skipping
-========================================================================
-Worker process is ready to serve import requests
-Shader 'WFX/Transparent Specular': fallback shader 'Particles/Alpha Blended' not found
-Shader 'WFX/Transparent Diffuse': fallback shader 'Particles/Alpha Blended' not found
-Launched and connected shader compiler UnityShaderCompiler.exe after 0.05 seconds
-Refreshing native plugins compatible for Editor in 0.41 ms, found 2 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 1613 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 96.6 MB.
-System memory in use after: 96.7 MB.
-
-Unloading 24 unused Assets to reduce memory usage. Loaded Objects now: 2111.
-Total: 2.962200 ms (FindLiveObjects: 0.157400 ms CreateObjectMapping: 0.052100 ms MarkObjects: 2.669400 ms  DeleteObjects: 0.082600 ms)
-
-AssetImportParameters requested are different than current active one (requested -> active):
-  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
-  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
-  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
-  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
-  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
-  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
-  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
-  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-========================================================================
-Received Import Request.
-  path: Assets/UXRasciiPALMTREE02.obj
-  artifactKey: Guid(c4079605acac27747b38518c3897c142) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/UXRasciiPALMTREE02.obj using Guid(c4079605acac27747b38518c3897c142) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a12b6c7ac52ebbe9f5170b5dad73352c') in 0.180791 seconds 
-  Import took 0.185286 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000318 seconds.
-  path: Assets/Player.prefab
-  artifactKey: Guid(e0eec1930ad27c146a853a20bb570322) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Player.prefab using Guid(e0eec1930ad27c146a853a20bb570322) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b1b3dc4065988d3ad258fa47aaee72fa') in 0.047472 seconds 
-  Import took 0.050436 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000298 seconds.
-  path: Assets/TX_tile_square.jpg
-  artifactKey: Guid(2f779c6e4f984734d999164d830d6946) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/TX_tile_square.jpg using Guid(2f779c6e4f984734d999164d830d6946) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '24073e70b8ce4bafd8e585bf82e34667') in 0.033686 seconds 
-  Import took 0.036212 seconds .
-
-========================================================================
-Received Prepare
-Registering precompiled user dll's ...
-Registered in 0.007533 seconds.
-Begin MonoManager ReloadAssembly
-Native extension for Lumin target not found
-Native extension for LinuxStandalone target not found
-Native extension for WindowsStandalone target not found
-Native extension for OSXStandalone target not found
-Native extension for WebGL target not found
-Refreshing native plugins compatible for Editor in 0.42 ms, found 2 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Mono: successfully reloaded assembly
-- Completed reload, in  1.323 seconds
-Domain Reload Profiling:
-	ReloadAssembly (1324ms)
-		BeginReloadAssembly (114ms)
-			ExecutionOrderSort (0ms)
-			DisableScriptedObjects (4ms)
-			BackupInstance (0ms)
-			ReleaseScriptingObjects (0ms)
-			CreateAndSetChildDomain (33ms)
-		EndReloadAssembly (1150ms)
-			LoadAssemblies (84ms)
-			RebuildTransferFunctionScriptingTraits (0ms)
-			SetupTypeCache (271ms)
-			ReleaseScriptCaches (1ms)
-			RebuildScriptCaches (40ms)
-			SetupLoadedEditorAssemblies (663ms)
-				LogAssemblyErrors (0ms)
-				InitializePlatformSupportModulesInManaged (8ms)
-				SetLoadedEditorAssemblies (0ms)
-				RefreshPlugins (0ms)
-				BeforeProcessingInitializeOnLoad (105ms)
-				ProcessInitializeOnLoadAttributes (539ms)
-				ProcessInitializeOnLoadMethodAttributes (3ms)
-				AfterProcessingInitializeOnLoad (7ms)
-				EditorAssembliesLoaded (0ms)
-			ExecutionOrderSort2 (0ms)
-			AwakeInstancesAfterBackupRestoration (7ms)
-Platform modules already initialized, skipping
-Shader 'WFX/Transparent Specular': fallback shader 'Particles/Alpha Blended' not found
-Shader 'WFX/Transparent Diffuse': fallback shader 'Particles/Alpha Blended' not found
-Refreshing native plugins compatible for Editor in 0.47 ms, found 2 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 1568 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 96.1 MB.
-System memory in use after: 96.2 MB.
-
-Unloading 19 unused Assets to reduce memory usage. Loaded Objects now: 2158.
-Total: 2.630200 ms (FindLiveObjects: 0.149400 ms CreateObjectMapping: 0.048800 ms MarkObjects: 2.413400 ms  DeleteObjects: 0.017500 ms)
-
-AssetImportParameters requested are different than current active one (requested -> active):
-  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
-  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
-  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
-  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
-  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
-  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
-  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
-  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-========================================================================
-Received Import Request.
-  Time since last request: 176.851578 seconds.
-  path: Assets/FULLtile.jpg
-  artifactKey: Guid(22dd18eb854fa1f44bb2fae5d0b9f6b9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/FULLtile.jpg using Guid(22dd18eb854fa1f44bb2fae5d0b9f6b9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '94e3bd9c6ce18057d6844b6b0fe687ad') in 0.036799 seconds 
-  Import took 0.041806 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 31.307956 seconds.
-  path: Assets/UXRlofiPALM.fbx
-  artifactKey: Guid(f9e01a1ffc320394790a7f0cb26be597) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/UXRlofiPALM.fbx using Guid(f9e01a1ffc320394790a7f0cb26be597) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8c017712cab1a5aac79889796a1f861a') in 0.090199 seconds 
-  Import took 0.095470 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 124.690471 seconds.
-  path: Assets/Materials/M1A1_Submachine_Gun_AlbedoTransparency.mat
-  artifactKey: Guid(273fb3a4ca073c04da4eadf54527019a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Materials/M1A1_Submachine_Gun_AlbedoTransparency.mat using Guid(273fb3a4ca073c04da4eadf54527019a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '780b3d493e46e7c09b48197c9d4574fe') in 0.058477 seconds 
-  Import took 0.061596 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 1.000315 seconds.
-  path: Assets/Modern Weapons/Pistol/Materials/Pistol.mat
-  artifactKey: Guid(27a2e426a50f9f74faf91f6a4ad513b1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Modern Weapons/Pistol/Materials/Pistol.mat using Guid(27a2e426a50f9f74faf91f6a4ad513b1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ce8cfbe091a21363456cb3b3ae7334d2') in 0.034148 seconds 
-  Import took 0.037440 seconds .
-
-========================================================================
-Received Prepare
-Registering precompiled user dll's ...
-Registered in 0.007095 seconds.
-Begin MonoManager ReloadAssembly
-Native extension for Lumin target not found
-Native extension for LinuxStandalone target not found
-Native extension for WindowsStandalone target not found
-Native extension for OSXStandalone target not found
-Native extension for WebGL target not found
-Refreshing native plugins compatible for Editor in 0.47 ms, found 2 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Mono: successfully reloaded assembly
-- Completed reload, in  1.201 seconds
-Domain Reload Profiling:
-	ReloadAssembly (1202ms)
-		BeginReloadAssembly (116ms)
-			ExecutionOrderSort (0ms)
-			DisableScriptedObjects (5ms)
-			BackupInstance (0ms)
-			ReleaseScriptingObjects (0ms)
-			CreateAndSetChildDomain (32ms)
-		EndReloadAssembly (1026ms)
-			LoadAssemblies (81ms)
-			RebuildTransferFunctionScriptingTraits (0ms)
-			SetupTypeCache (254ms)
-			ReleaseScriptCaches (1ms)
-			RebuildScriptCaches (43ms)
-			SetupLoadedEditorAssemblies (547ms)
-				LogAssemblyErrors (0ms)
-				InitializePlatformSupportModulesInManaged (8ms)
+				InitializePlatformSupportModulesInManaged (11ms)
 				SetLoadedEditorAssemblies (1ms)
 				RefreshPlugins (1ms)
-				BeforeProcessingInitializeOnLoad (80ms)
-				ProcessInitializeOnLoadAttributes (442ms)
-				ProcessInitializeOnLoadMethodAttributes (4ms)
-				AfterProcessingInitializeOnLoad (12ms)
-				EditorAssembliesLoaded (0ms)
-			ExecutionOrderSort2 (0ms)
-			AwakeInstancesAfterBackupRestoration (7ms)
-Platform modules already initialized, skipping
-Shader 'WFX/Transparent Specular': fallback shader 'Particles/Alpha Blended' not found
-Shader 'WFX/Transparent Diffuse': fallback shader 'Particles/Alpha Blended' not found
-Refreshing native plugins compatible for Editor in 0.42 ms, found 2 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 1568 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 96.2 MB.
-System memory in use after: 96.3 MB.
-
-Unloading 19 unused Assets to reduce memory usage. Loaded Objects now: 2161.
-Total: 2.653000 ms (FindLiveObjects: 0.150900 ms CreateObjectMapping: 0.046200 ms MarkObjects: 2.439500 ms  DeleteObjects: 0.015500 ms)
-
-AssetImportParameters requested are different than current active one (requested -> active):
-  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
-  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
-  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
-  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
-  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
-  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
-  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
-  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-========================================================================
-Received Prepare
-Registering precompiled user dll's ...
-Registered in 0.007459 seconds.
-Begin MonoManager ReloadAssembly
-Native extension for Lumin target not found
-Native extension for LinuxStandalone target not found
-Native extension for WindowsStandalone target not found
-Native extension for OSXStandalone target not found
-Native extension for WebGL target not found
-Refreshing native plugins compatible for Editor in 0.42 ms, found 2 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Mono: successfully reloaded assembly
-- Completed reload, in  1.145 seconds
-Domain Reload Profiling:
-	ReloadAssembly (1145ms)
-		BeginReloadAssembly (98ms)
-			ExecutionOrderSort (0ms)
-			DisableScriptedObjects (4ms)
-			BackupInstance (0ms)
-			ReleaseScriptingObjects (0ms)
-			CreateAndSetChildDomain (28ms)
-		EndReloadAssembly (984ms)
-			LoadAssemblies (84ms)
-			RebuildTransferFunctionScriptingTraits (0ms)
-			SetupTypeCache (254ms)
-			ReleaseScriptCaches (1ms)
-			RebuildScriptCaches (39ms)
-			SetupLoadedEditorAssemblies (511ms)
-				LogAssemblyErrors (0ms)
-				InitializePlatformSupportModulesInManaged (8ms)
-				SetLoadedEditorAssemblies (0ms)
-				RefreshPlugins (0ms)
-				BeforeProcessingInitializeOnLoad (81ms)
-				ProcessInitializeOnLoadAttributes (410ms)
-				ProcessInitializeOnLoadMethodAttributes (3ms)
+				BeforeProcessingInitializeOnLoad (113ms)
+				ProcessInitializeOnLoadAttributes (653ms)
+				ProcessInitializeOnLoadMethodAttributes (5ms)
 				AfterProcessingInitializeOnLoad (8ms)
 				EditorAssembliesLoaded (0ms)
 			ExecutionOrderSort2 (0ms)
 			AwakeInstancesAfterBackupRestoration (8ms)
 Platform modules already initialized, skipping
+========================================================================
+Worker process is ready to serve import requests
 Shader 'WFX/Transparent Specular': fallback shader 'Particles/Alpha Blended' not found
 Shader 'WFX/Transparent Diffuse': fallback shader 'Particles/Alpha Blended' not found
-Refreshing native plugins compatible for Editor in 0.53 ms, found 2 plugins.
+Launched and connected shader compiler UnityShaderCompiler.exe after 0.16 seconds
+Refreshing native plugins compatible for Editor in 0.49 ms, found 2 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 1568 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 96.2 MB.
-System memory in use after: 96.3 MB.
+Unloading 1613 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 96.9 MB.
+System memory in use after: 97.0 MB.
 
-Unloading 19 unused Assets to reduce memory usage. Loaded Objects now: 2163.
-Total: 2.794100 ms (FindLiveObjects: 0.151800 ms CreateObjectMapping: 0.046300 ms MarkObjects: 2.578400 ms  DeleteObjects: 0.017000 ms)
+Unloading 24 unused Assets to reduce memory usage. Loaded Objects now: 2111.
+Total: 2.736000 ms (FindLiveObjects: 0.203500 ms CreateObjectMapping: 0.082700 ms MarkObjects: 2.360000 ms  DeleteObjects: 0.088700 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Prepare
+Shader 'WFX/Transparent Specular': fallback shader 'Particles/Alpha Blended' not found
+Shader 'WFX/Transparent Diffuse': fallback shader 'Particles/Alpha Blended' not found
+Refreshing native plugins compatible for Editor in 3.95 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 17 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 62.0 MB.
+System memory in use after: 62.1 MB.
+
+Unloading 17 unused Assets to reduce memory usage. Loaded Objects now: 2111.
+Total: 2.732100 ms (FindLiveObjects: 0.153400 ms CreateObjectMapping: 0.049900 ms MarkObjects: 2.515100 ms  DeleteObjects: 0.013000 ms)
 
 AssetImportParameters requested are different than current active one (requested -> active):
   custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
@@ -388,133 +170,56 @@ AssetImportParameters requested are different than current active one (requested
   custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
 ========================================================================
 Received Import Request.
-  Time since last request: 225.186225 seconds.
-  path: Assets/index.jpg
-  artifactKey: Guid(5299a5fa7e75b554da77163413562544) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/index.jpg using Guid(5299a5fa7e75b554da77163413562544) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd572dada9ea1fc0ddc7207d8cbfccce7') in 0.045783 seconds 
-  Import took 0.049654 seconds .
+  path: Assets/ProCore/ProBuilder/API Examples/Icosphere FFT/Skybox/Space_down.png
+  artifactKey: Guid(6925cd6e64cbdf14f823015144ddb2e2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ProCore/ProBuilder/API Examples/Icosphere FFT/Skybox/Space_down.png using Guid(6925cd6e64cbdf14f823015144ddb2e2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6afcc40d56e2e5e5a33462d23fcb5352') in 0.208765 seconds 
+  Import took 0.221963 seconds .
 
 ========================================================================
-Received Prepare
-Registering precompiled user dll's ...
-Registered in 0.008547 seconds.
-Begin MonoManager ReloadAssembly
-Native extension for Lumin target not found
-Native extension for LinuxStandalone target not found
-Native extension for WindowsStandalone target not found
-Native extension for OSXStandalone target not found
-Native extension for WebGL target not found
-Refreshing native plugins compatible for Editor in 0.49 ms, found 2 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Mono: successfully reloaded assembly
-- Completed reload, in  1.303 seconds
-Domain Reload Profiling:
-	ReloadAssembly (1303ms)
-		BeginReloadAssembly (132ms)
-			ExecutionOrderSort (0ms)
-			DisableScriptedObjects (4ms)
-			BackupInstance (0ms)
-			ReleaseScriptingObjects (0ms)
-			CreateAndSetChildDomain (42ms)
-		EndReloadAssembly (1107ms)
-			LoadAssemblies (93ms)
-			RebuildTransferFunctionScriptingTraits (0ms)
-			SetupTypeCache (255ms)
-			ReleaseScriptCaches (1ms)
-			RebuildScriptCaches (43ms)
-			SetupLoadedEditorAssemblies (606ms)
-				LogAssemblyErrors (0ms)
-				InitializePlatformSupportModulesInManaged (9ms)
-				SetLoadedEditorAssemblies (0ms)
-				RefreshPlugins (1ms)
-				BeforeProcessingInitializeOnLoad (169ms)
-				ProcessInitializeOnLoadAttributes (414ms)
-				ProcessInitializeOnLoadMethodAttributes (4ms)
-				AfterProcessingInitializeOnLoad (9ms)
-				EditorAssembliesLoaded (0ms)
-			ExecutionOrderSort2 (0ms)
-			AwakeInstancesAfterBackupRestoration (7ms)
-Platform modules already initialized, skipping
-Shader 'WFX/Transparent Specular': fallback shader 'Particles/Alpha Blended' not found
-Shader 'WFX/Transparent Diffuse': fallback shader 'Particles/Alpha Blended' not found
-Refreshing native plugins compatible for Editor in 0.46 ms, found 2 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 1568 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 96.2 MB.
-System memory in use after: 96.3 MB.
+Received Import Request.
+  Time since last request: 0.000302 seconds.
+  path: Assets/ProCore/ProBuilder/API Examples/Icosphere FFT/Skybox/Space_right.png
+  artifactKey: Guid(f8ebd7b4946039d4587fbf987d710add) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ProCore/ProBuilder/API Examples/Icosphere FFT/Skybox/Space_right.png using Guid(f8ebd7b4946039d4587fbf987d710add) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e0558524b22ddca1f77c060efe62038e') in 0.024950 seconds 
+  Import took 0.030380 seconds .
 
-Unloading 19 unused Assets to reduce memory usage. Loaded Objects now: 2165.
-Total: 2.737500 ms (FindLiveObjects: 0.167600 ms CreateObjectMapping: 0.044800 ms MarkObjects: 2.507200 ms  DeleteObjects: 0.016600 ms)
-
-AssetImportParameters requested are different than current active one (requested -> active):
-  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
-  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
-  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
-  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
-  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
-  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
-  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
-  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
 ========================================================================
-Received Prepare
-Registering precompiled user dll's ...
-Registered in 0.007476 seconds.
-Begin MonoManager ReloadAssembly
-Native extension for Lumin target not found
-Native extension for LinuxStandalone target not found
-Native extension for WindowsStandalone target not found
-Native extension for OSXStandalone target not found
-Native extension for WebGL target not found
-Refreshing native plugins compatible for Editor in 0.93 ms, found 2 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Mono: successfully reloaded assembly
-- Completed reload, in  1.247 seconds
-Domain Reload Profiling:
-	ReloadAssembly (1248ms)
-		BeginReloadAssembly (107ms)
-			ExecutionOrderSort (0ms)
-			DisableScriptedObjects (4ms)
-			BackupInstance (0ms)
-			ReleaseScriptingObjects (0ms)
-			CreateAndSetChildDomain (30ms)
-		EndReloadAssembly (1077ms)
-			LoadAssemblies (85ms)
-			RebuildTransferFunctionScriptingTraits (0ms)
-			SetupTypeCache (266ms)
-			ReleaseScriptCaches (1ms)
-			RebuildScriptCaches (38ms)
-			SetupLoadedEditorAssemblies (591ms)
-				LogAssemblyErrors (0ms)
-				InitializePlatformSupportModulesInManaged (11ms)
-				SetLoadedEditorAssemblies (1ms)
-				RefreshPlugins (1ms)
-				BeforeProcessingInitializeOnLoad (89ms)
-				ProcessInitializeOnLoadAttributes (478ms)
-				ProcessInitializeOnLoadMethodAttributes (3ms)
-				AfterProcessingInitializeOnLoad (8ms)
-				EditorAssembliesLoaded (0ms)
-			ExecutionOrderSort2 (0ms)
-			AwakeInstancesAfterBackupRestoration (7ms)
-Platform modules already initialized, skipping
-Shader 'WFX/Transparent Specular': fallback shader 'Particles/Alpha Blended' not found
-Shader 'WFX/Transparent Diffuse': fallback shader 'Particles/Alpha Blended' not found
-Refreshing native plugins compatible for Editor in 0.43 ms, found 2 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 1568 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 96.2 MB.
-System memory in use after: 96.3 MB.
+Received Import Request.
+  Time since last request: 0.000430 seconds.
+  path: Assets/ProCore/ProBuilder/API Examples/Icosphere FFT/Skybox/Space_back.png
+  artifactKey: Guid(5b16e194d8a47394d8bba2d7f22281dd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ProCore/ProBuilder/API Examples/Icosphere FFT/Skybox/Space_back.png using Guid(5b16e194d8a47394d8bba2d7f22281dd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6a2f070dda2c9755c77e25ebf5bc0ae4') in 0.016317 seconds 
+  Import took 0.019788 seconds .
 
-Unloading 19 unused Assets to reduce memory usage. Loaded Objects now: 2167.
-Total: 2.717400 ms (FindLiveObjects: 0.153900 ms CreateObjectMapping: 0.049100 ms MarkObjects: 2.494700 ms  DeleteObjects: 0.018900 ms)
+========================================================================
+Received Import Request.
+  Time since last request: 0.000349 seconds.
+  path: Assets/ProCore/ProBuilder/API Examples/Icosphere FFT/Skybox/Space_up.png
+  artifactKey: Guid(03f6d5b8c2b6ce54a9d3bad9227d22e8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ProCore/ProBuilder/API Examples/Icosphere FFT/Skybox/Space_up.png using Guid(03f6d5b8c2b6ce54a9d3bad9227d22e8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '20344ea04235cba2c6c408fb0fe254f5') in 0.029522 seconds 
+  Import took 0.034925 seconds .
 
-AssetImportParameters requested are different than current active one (requested -> active):
-  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
-  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
-  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
-  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
-  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
-  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
-  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
-  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Import Request.
+  Time since last request: 0.001150 seconds.
+  path: Assets/ProCore/ProBuilder/API Examples/Icosphere FFT/Skybox/Space_front.png
+  artifactKey: Guid(760f3e975cb462c4cb9948cd150a6343) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ProCore/ProBuilder/API Examples/Icosphere FFT/Skybox/Space_front.png using Guid(760f3e975cb462c4cb9948cd150a6343) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4ca7626f824e5b2cc02d88ce05493799') in 0.028920 seconds 
+  Import took 0.039046 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000294 seconds.
+  path: Assets/ProCore/ProBuilder/API Examples/Icosphere FFT/Skybox/Space_left.png
+  artifactKey: Guid(4f323298b76d3fa45944036e8597b509) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ProCore/ProBuilder/API Examples/Icosphere FFT/Skybox/Space_left.png using Guid(4f323298b76d3fa45944036e8597b509) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7fe2a8aa85fb3faa63fdf9df77616739') in 0.030382 seconds 
+  Import took 0.037412 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000214 seconds.
+  path: Assets/ProCore/ProBuilder/API Examples/Icosphere FFT/Skybox/Space_front.png
+  artifactKey: Guid(760f3e975cb462c4cb9948cd150a6343) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ProCore/ProBuilder/API Examples/Icosphere FFT/Skybox/Space_front.png using Guid(760f3e975cb462c4cb9948cd150a6343) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4ca7626f824e5b2cc02d88ce05493799') in 0.009719 seconds 
+  Import took 0.013048 seconds .
+

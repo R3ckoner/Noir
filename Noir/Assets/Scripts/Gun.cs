@@ -50,7 +50,7 @@ public class Gun : MonoBehaviour
     {
         if (totalAmmo > magAmmo){
         isReloading = true;
-        Debug.Log("Reloading...");
+        
 
         yield return new WaitForSeconds(reloadTime);
 
