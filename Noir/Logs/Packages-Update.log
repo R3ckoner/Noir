@@ -44,3 +44,12 @@ The following packages were added:
   com.unity.textmeshpro@3.0.6
   com.unity.timeline@1.4.8
   com.unity.ugui@1.0.0
+
+=== Sat Sep 25 17:13:45 2021
+
+Packages were changed.
+Update Mode: resetToDefaultDependencies
+
+The following packages were removed:
+  com.unity.postprocessing@3.1.1
+  com.unity.toolchain.win-x86_64-linux-x86_64@0.1.21-preview
