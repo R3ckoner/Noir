@@ -23,6 +23,8 @@ public class Gun : MonoBehaviour
     public Text magText;
     public Text reserveText;
 
+    public Animator animator;
+
      void Start() {
         {
             ReserveAmmount = magAmmo;
@@ -52,14 +54,18 @@ public class Gun : MonoBehaviour
         if (totalAmmo > magAmmo){
         isReloading = true;
         
+        animator.SetBool("Reloading", true);
 
         yield return new WaitForSeconds(reloadTime);
+
+         animator.SetBool("Reloading", false);
 
         ReserveAmmount = magAmmo;
         isReloading = false;
 
         totalAmmo = totalAmmo - ReserveAmmount;
 
+        
         }
     }
 
