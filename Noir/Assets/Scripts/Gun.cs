@@ -7,6 +7,7 @@ public class Gun : MonoBehaviour
 {
     public float damage = 10f;
     public float range = 100f;
+    public float fireRate = 15;
 
     public int magAmmo;
     private int ReserveAmmount = -1;
@@ -25,14 +26,26 @@ public class Gun : MonoBehaviour
 
     public Animator animator;
 
+    private float nextTimeToFire = 0f;
+
      void Start() {
         {
             ReserveAmmount = magAmmo;
         }
     }
+
+    void OnEnable() {
+
+        isReloading = false;
+        animator.SetBool("Reloading", false);
+
+        
+    }
     // sets amounts equal to the corresponding text object, sets conditions for reload
     void Update()
     {
+
+        
         magText.text = ReserveAmmount.ToString();
         reserveText.text = totalAmmo.ToString();
 
@@ -42,10 +55,13 @@ public class Gun : MonoBehaviour
         {
             StartCoroutine(Reload());
         }
-        if (Input.GetButtonDown("Fire1"))
+
+        if (Input.GetButton("Fire1") && Time.time >= nextTimeToFire)
         {
+            nextTimeToFire = Time.time + 1f / fireRate;
             Shoot();
         }
+        
     }
 
     // performs reload
