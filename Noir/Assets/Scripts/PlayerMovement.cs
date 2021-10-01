@@ -85,6 +85,16 @@ public class PlayerMovement : MonoBehaviour
         _controller = GetComponent<CharacterController>();
     }
 
+     void OnCollisionEnter (Collision col) 
+ {
+          if (col.gameObject.CompareTag("ar"))
+          {
+              
+          }
+ 
+         
+ }
+
     private void Update()
     {
         // Do FPS calculation

@@ -16,6 +16,7 @@ public class Gun : MonoBehaviour
     // messed up some of these variables, will fix 
 
     private bool isReloading = false;
+    
     public Camera fpsCam;
     public ParticleSystem muzzleFlash;
 
@@ -26,7 +27,11 @@ public class Gun : MonoBehaviour
 
     public Animator animator;
 
+    public bool weapon = false;
+
     private float nextTimeToFire = 0f;
+
+    
 
      void Start() {
         {
@@ -63,6 +68,10 @@ public class Gun : MonoBehaviour
         }
         
     }
+     
+ 
+
+    
 
     // performs reload
     IEnumerator Reload ()

@@ -2,38 +2,62 @@ using UnityEngine;
 
 public class WeaponSwitch : MonoBehaviour
 {
+    public bool gun1 = true;
+    public bool gun2 = false;
+    public bool gun3 = false;
     public float reloadTime = 1f;
     public int selectedWeapon;
     // Start is called before the first frame update
     void Start()
     {
+       
         SelectWeapon();
+        
 
     }
+    
+    
+     void OnCollisionEnter (Collision col) 
+ {
+          if (col.gameObject.CompareTag("pistol"))
+          {
+              gun1 = true;
+              
+ 
+          }  
+          if (col.gameObject.CompareTag("smg"))
+          {
+              gun2 = true;
+              
+ 
+          }  
+          if (col.gameObject.CompareTag("ar"))
+          {
+              gun3 = true;
+              
+ 
+          }  
+ }
 
     // Update is called once per frame
     void Update()
     {
         int previousSelectedWeapon = selectedWeapon;
 
-        if (Input.GetAxis("Mouse ScrollWheel") > 0f)
+        
+        if (Input.GetKeyDown(KeyCode.Alpha1))
         {
-            
-            
-            if (selectedWeapon >= transform.childCount - 1)
-                selectedWeapon = 0;
-            else
-                selectedWeapon++;
-
+            selectedWeapon = 0;
         }
 
-        if (Input.GetAxis("Mouse ScrollWheel") < 0f)
+        if (Input.GetKeyDown(KeyCode.Alpha2))
         {
-            if (selectedWeapon <= 0)
-                selectedWeapon = transform.childCount -1;
-            else 
-                selectedWeapon--;
+            selectedWeapon = 1;
+        }
 
+        if (Input.GetKeyDown(KeyCode.Alpha3))
+        {
+            selectedWeapon = 2;
         }
 
         if (previousSelectedWeapon != selectedWeapon)
@@ -58,6 +82,8 @@ public class WeaponSwitch : MonoBehaviour
             
         
     }
+
+   
 
     
 }
