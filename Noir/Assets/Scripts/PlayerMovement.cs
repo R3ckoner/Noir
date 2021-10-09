@@ -62,12 +62,13 @@ public class PlayerMovement : MonoBehaviour
 
     // Player commands, stores wish commands that the player asks for (Forward, back, jump, etc)
     private Cmd _cmd;
+    
 
     private void Start()
     {
         // Hide the cursor
-        Cursor.visible = false;
-        Cursor.lockState = CursorLockMode.Locked;
+      //  Cursor.visible = false;
+        //Cursor.lockState = CursorLockMode.Locked;
 
         if (playerView == null)
         {
@@ -107,10 +108,10 @@ public class PlayerMovement : MonoBehaviour
             dt -= 1.0f / fpsDisplayRate;
                  }
         /* Ensure that the cursor is locked into the screen */
-        if (Cursor.lockState != CursorLockMode.Locked) {
-            if (Input.GetButtonDown("Fire1"))
-                Cursor.lockState = CursorLockMode.Locked;
-        }
+       // if (Cursor.lockState != CursorLockMode.Locked) {
+        //    if (Input.GetButtonDown("Fire1"))
+        //        Cursor.lockState = CursorLockMode.Locked;
+      //  }
 
         /* Camera rotation stuff, mouse controls this shit */
         rotX -= Input.GetAxisRaw("Mouse Y") * xMouseSensitivity * 0.02f;
