@@ -45,7 +45,7 @@ public class GunBob : MonoBehaviour {
 			totalAxes = Mathf.Clamp (totalAxes, 0.0f, 1.0f);
 			translateChange = totalAxes * translateChange;
 			localPosition.y = midPoint.y + translateChange;
-			localPosition.x = midPoint.x + translateChange * 2;
+			//localPosition.x = midPoint.x + translateChange;
 		}
 		else
 		{

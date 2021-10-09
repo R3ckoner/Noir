@@ -1043,7 +1043,7 @@ Camera:
     width: 1
     height: 1
   near clip plane: 0.01
-  far clip plane: 1000
+  far clip plane: 100000
   field of view: 90
   orthographic: 0
   orthographic size: 5
@@ -1229,7 +1229,7 @@ MonoBehaviour:
   yMouseSensitivity: 50
   gravity: 20
   friction: 5
-  moveSpeed: 25
+  moveSpeed: 30
   runAcceleration: 15
   runDeacceleration: 15
   airAcceleration: 2
@@ -3028,6 +3028,8 @@ GameObject:
   - component: {fileID: 4950741358266948117}
   - component: {fileID: 215866268805926619}
   - component: {fileID: 215866268805926618}
+  - component: {fileID: 1768276758}
+  - component: {fileID: 1768276759}
   m_Layer: 0
   m_Name: GunContainer
   m_TagString: Untagged
@@ -3087,6 +3089,36 @@ MonoBehaviour:
   gun3: 0
   reloadTime: 1
   selectedWeapon: 0
+--- !u!114 &1768276758
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6925958008527486490}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 343c035b01c904e4692d4704a5367d3b, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  bobSpeed: 0.04
+  bobDistance: 0.02
+  Gun: {fileID: 215866269388721067}
+--- !u!114 &1768276759
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6925958008527486490}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 343c035b01c904e4692d4704a5367d3b, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  bobSpeed: 0.04
+  bobDistance: 0.005
+  Gun: {fileID: 215866268548008905}
 --- !u!1 &6954856919027888700
 GameObject:
   m_ObjectHideFlags: 0
@@ -4243,14 +4275,14 @@ PrefabInstance:
     m_RemovedComponents:
     - {fileID: 11400000, guid: 8f611da60097c85438a2947021f045cf, type: 3}
   m_SourcePrefab: {fileID: 100100000, guid: 8f611da60097c85438a2947021f045cf, type: 3}
---- !u!4 &5944241464200292724 stripped
-Transform:
-  m_CorrespondingSourceObject: {fileID: 400008, guid: 8f611da60097c85438a2947021f045cf, type: 3}
-  m_PrefabInstance: {fileID: 5944241464199902204}
-  m_PrefabAsset: {fileID: 0}
 --- !u!198 &5944241464218643508 stripped
 ParticleSystem:
   m_CorrespondingSourceObject: {fileID: 19800008, guid: 8f611da60097c85438a2947021f045cf, type: 3}
+  m_PrefabInstance: {fileID: 5944241464199902204}
+  m_PrefabAsset: {fileID: 0}
+--- !u!4 &5944241464200292724 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: 400008, guid: 8f611da60097c85438a2947021f045cf, type: 3}
   m_PrefabInstance: {fileID: 5944241464199902204}
   m_PrefabAsset: {fileID: 0}
 --- !u!1001 &5944241465262495803
