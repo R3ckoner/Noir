@@ -15,7 +15,7 @@ public class Gun : MonoBehaviour
     public float reloadTime = 1f;
     // messed up some of these variables, will fix 
 
-    private bool isReloading = false;
+    private bool isReloading = true;
     
     public Camera fpsCam;
     public ParticleSystem muzzleFlash;
@@ -30,12 +30,22 @@ public class Gun : MonoBehaviour
     public bool weapon = false;
 
     private float nextTimeToFire = 0f;
+    
+    public Recoil recoil;
+
+   public AudioSource gunShot;
+    public AudioSource reloadNoise;
+
 
     
 
+    
+    
      void Start() {
         {
             ReserveAmmount = magAmmo;
+
+            
         }
     }
 
@@ -49,7 +59,7 @@ public class Gun : MonoBehaviour
     // sets amounts equal to the corresponding text object, sets conditions for reload
     void Update()
     {
-
+        
         
         magText.text = ReserveAmmount.ToString();
         reserveText.text = totalAmmo.ToString();
@@ -78,6 +88,9 @@ public class Gun : MonoBehaviour
     {
         if (totalAmmo > magAmmo){
         isReloading = true;
+
+        //reloadNoise = GetComponent<AudioSource>();
+        reloadNoise.Play(0);
         
         animator.SetBool("Reloading", true);
 
@@ -97,12 +110,18 @@ public class Gun : MonoBehaviour
     // fires the weapon and damages enemies
     void Shoot()
     {
-
+        
         if (ReserveAmmount > 0){
+
+        gunShot = GetComponent<AudioSource>();
+        gunShot.Play(0);
+
+        recoil.Fire();
         muzzleFlash.Play();
 
         ReserveAmmount --;
-
+        
+        
         RaycastHit hit;
         if (Physics.Raycast(fpsCam.transform.position, fpsCam.transform.forward, out hit, range))
         {
@@ -115,8 +134,11 @@ public class Gun : MonoBehaviour
             health.TakeDamage(damage);
 
         }
+        
 
         Instantiate(impactEffect, hit.point, Quaternion.LookRotation(hit.normal));
         }
+
+        
     }
 }
